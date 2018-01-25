@@ -10,10 +10,11 @@ end type
 end forward
 
 global type w_genapp_about from window
-integer x = 873
-integer y = 428
-integer width = 1166
-integer height = 568
+string tag = "About"
+integer x = 872
+integer y = 427
+integer width = 1168
+integer height = 569
 boolean titlebar = true
 string title = "バージョン情報"
 boolean controlmenu = true
@@ -38,10 +39,10 @@ destroy(this.st_copyright)
 end on
 
 type cb_ok from commandbutton within w_genapp_about
-integer x = 407
+integer x = 408
 integer y = 348
-integer width = 334
-integer height = 88
+integer width = 336
+integer height = 89
 integer taborder = 10
 integer textsize = -8
 integer weight = 400
@@ -60,10 +61,10 @@ Close ( Parent )
 end event
 
 type st_copyright from statictext within w_genapp_about
-integer x = 27
-integer y = 20
-integer width = 1097
-integer height = 276
+integer x = 28
+integer y = 21
+integer width = 1096
+integer height = 277
 integer textsize = -8
 integer weight = 400
 fontcharset fontcharset = ansi!

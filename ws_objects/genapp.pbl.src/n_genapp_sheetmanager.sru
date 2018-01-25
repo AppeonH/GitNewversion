@@ -27,6 +27,7 @@ public function integer of_resetmenu ()
 public function integer of_registersheets (readonly string as_sheets[], readonly string as_displays[])
 public function integer of_addtomenu (readonly string as_sheet, readonly string as_display)
 public function integer of_registersheet (readonly string as_sheet, readonly string as_display)
+public function integer of_addtestfunction ()
 end prototypes
 
 public function integer of_unregistersheet (readonly string as_sheet);//*-----------------------------------------------------------------*/
@@ -260,6 +261,10 @@ is_display[ll_sheets+1] = as_display
 of_AddToMenu ( as_sheet, as_display )
 
 Return 1
+end function
+
+public function integer of_addtestfunction ();//
+return 1
 end function
 
 on n_genapp_sheetmanager.create
