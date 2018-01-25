@@ -1,23 +1,24 @@
 ﻿$PBExportHeader$w_genapp_basesheet.srw
 $PBExportComments$Generated MDI Base Sheet Window
 forward
-global type w_genapp_basesheet from Window
+global type w_genapp_basesheet from window
 end type
 end forward
 
-global type w_genapp_basesheet from Window
-int X=672
-int Y=264
-int Width=1582
-int Height=1064
-boolean TitleBar=true
-string Title="Sheet"
-string MenuName="m_genapp_sheet"
-long BackColor=79416533
-boolean ControlMenu=true
-boolean MinBox=true
-boolean MaxBox=true
-boolean Resizable=true
+global type w_genapp_basesheet from window
+string tag = "test"
+integer x = 672
+integer y = 263
+integer width = 1584
+integer height = 1063
+boolean titlebar = true
+string title = "Sheet"
+string menuname = "m_genapp_sheet"
+boolean controlmenu = true
+boolean minbox = true
+boolean maxbox = true
+boolean resizable = true
+long backcolor = 79416533
 event ue_postopen ( )
 event ue_undo ( )
 event ue_cut ( )

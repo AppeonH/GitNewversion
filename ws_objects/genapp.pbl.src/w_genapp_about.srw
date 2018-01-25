@@ -13,8 +13,8 @@ global type w_genapp_about from window
 string tag = "About"
 integer x = 872
 integer y = 427
-integer width = 1168
-integer height = 569
+integer width = 1336
+integer height = 693
 boolean titlebar = true
 string title = "バージョン情報"
 boolean controlmenu = true

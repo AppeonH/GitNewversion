@@ -264,7 +264,7 @@ Return 1
 end function
 
 public function integer of_addtestfunction ();//
-return 1
+return 0
 end function
 
 on n_genapp_sheetmanager.create
