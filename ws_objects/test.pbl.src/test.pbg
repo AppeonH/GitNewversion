@@ -4,4 +4,5 @@
 @end;
 @begin Objects 
  "test.sra" "test.pbl";
+ "m_test.srm" "test.pbl";
 @end;
